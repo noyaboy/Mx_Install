@@ -2,20 +2,19 @@
 ## Dependency Setup
 Create an new conda virtual environment
 ```
-conda create -n unfold_mx python=3.8 -y
+conda create -n unfold_mx python=3.9.12 -y
 conda activate unfold_mx
 ```
+![image](https://github.com/user-attachments/assets/e9d5dcb8-d097-4d75-908e-ada2f246593c)
 
-Install CUDA
+Install CUDA 12.1
 ```
-conda install cudatoolkit=11.1.1 -c conda-forge
+conda install cuda==12.1.1 -c conda-forge
 ```
 Check cuDNN installed. If not, install cuDNN (older version than CUDA) <br>
 ![image](https://github.com/noyaboy/ConvNeXtV2_Install/assets/99811508/2760601b-d92a-45f3-b1cd-341f84e685d2)
 ```
-conda list
-conda search cudnn -c conda-forge
-conda install cudnn==8.1.0.77 -c conda-forge
+conda install cudnn==7.6.4
 ```
 Check CUDA installed. If not, install cudatoolkit-dev. Related to $CUDA_HOME variable issue)
 ```
