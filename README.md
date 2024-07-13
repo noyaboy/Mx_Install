@@ -15,10 +15,11 @@ pip install ninja
 pip install pytest
 conda install gxx_linux-64=9.3.0
 pip install numpy==1.21.6
+conda install pandas
 ```
 Set variables:
 ```
-conda env config vars set PYTHONPATH="$PYTHONPATH:/home1/zks878/mx/microxcaling/"
+conda env config vars set PYTHONPATH="$PYTHONPATH:/home1/science103555/unfold_mx/microxcaling/"
 ```
 Check version:
 ```
