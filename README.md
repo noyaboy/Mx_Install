@@ -10,13 +10,15 @@ Install environment packages
 conda install cudatoolkit=11.3 -c conda-forge
 conda install cudatoolkit-dev=11.3 -c conda-forge
 conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
-conda env config vars set PYTHONPATH="$PYTHONPATH:/home1/zks878/mx/microxcaling/"
-
 pip install packaging
 pip install ninja
 pip install pytest
 conda install gxx_linux-64=9.3.0
 pip install numpy==1.21.6
+```
+Set variables:
+```
+conda env config vars set PYTHONPATH="$PYTHONPATH:/home1/zks878/mx/microxcaling/"
 ```
 Check version:
 ```
@@ -26,4 +28,9 @@ print(torch.__version__)
 print(torch.version.cuda)
 print(torch.backends.cudnn.version())
 exit()
+```
+Export environment:
+```
+cd ~
+conda env export > unfold_mx.yml
 ```
