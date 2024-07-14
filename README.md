@@ -6,7 +6,7 @@ conda create -n unfold_mx python=3.9.12 -y
 conda activate unfold_mx
 ```
 Install environment packages <br>
-If meet problem, please try panda==1.3.5, latest numpy
+(If meet problem, please try panda==1.3.5, latest numpy)
 ```
 conda install cudatoolkit=11.3 -c conda-forge
 conda install cudatoolkit-dev=11.3 -c conda-forge
