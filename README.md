@@ -36,3 +36,5 @@ Export environment:
 cd ~
 conda env export > unfold_mx.yml
 ```
+Another way to install:<br>
+https://hackmd.io/pli0jSzZQ8iOEwYJPUZtIg?fbclid=IwY2xjawEZbgdleHRuA2FlbQIxMAABHah702ZyNrqd7-CWViNX6EhIznoYSHqrL5S4USTMbIgHIhYb8s9qI4hA2w_aem_w6XCRrkaNN7M8J1An6JF1g
